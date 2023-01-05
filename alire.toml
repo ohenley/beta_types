@@ -1,0 +1,10 @@
+name = "beta_types"
+description = "beta types for embedded"
+version = "1.0.0"
+website = "https://github.com/wolfbiters/beta_types"
+licenses = "Apache-2.0"
+tags = ["embedded", "baremetal]`
+
+authors = ["wolfbiters"]
+maintainers = ["wolfbiters <the.wolf.biters@gmail.com>"]
+maintainers-logins = ["wolfbiters"]
