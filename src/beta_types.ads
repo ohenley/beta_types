@@ -33,6 +33,7 @@ with Interfaces;
 
 package Beta_Types is
     pragma Pure;
+    pragma Preelaborate;
 
    type Bit is mod 2**1
      with Size => 1;
