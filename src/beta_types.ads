@@ -52,6 +52,7 @@ package Beta_Types is
    type UInt9 is mod 2**9
      with Size => 9;
    type UInt8 is new Interfaces.Unsigned_8;
+   type Byte is new Interfaces.Unsigned_8;
    type UInt10 is mod 2**10
      with Size => 10;
    type UInt11 is mod 2**11
