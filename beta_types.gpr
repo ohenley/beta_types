@@ -1,6 +1,9 @@
 with "config/beta_types_config.gpr";
 project Beta_Types is
 
+   for Target use "arm-eabi";
+   for Runtime ("Ada") use "embedded-stm32f429disco";
+
    for Library_Name use "Beta_Types";
    for Library_Version use Project'Library_Name & ".so." & Beta_Types_Config.Crate_Version;
 
